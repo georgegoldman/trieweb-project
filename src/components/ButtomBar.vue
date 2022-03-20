@@ -1,24 +1,22 @@
 <template>
   <v-bottom-navigation
-    v-model="value"
-    :background-color="color"
     dark
     shift
   >
-    <v-btn>
-      <v-icon>mdi-television-play</v-icon>
+    <v-btn to="/" >
+      <i class="fa-solid fa-house-user fa-2x"></i>
     </v-btn>
 
-    <v-btn>
-      <v-icon>mdi-music-note</v-icon>
+    <v-btn to="">
+      <i class="fa-solid fa-magnifying-glass fa-2x"></i>
     </v-btn>
 
-    <v-btn>
-      <v-icon>mdi-book</v-icon>
+    <v-btn to="">
+      <i class="fa-regular fa-bell fa-2x"></i>
     </v-btn>
 
-    <v-btn>
-      <v-icon>mdi-image</v-icon>
+    <v-btn to="/settings">
+      <i class="fa-solid fa-gear fa-2x"></i>
     </v-btn>
   </v-bottom-navigation>
 </template>
