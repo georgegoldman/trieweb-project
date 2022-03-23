@@ -11,7 +11,7 @@
       </v-btn>
       <v-spacer></v-spacer>
         <template v-slot:append>
-          <v-btn icon="mdi-palette" @click="toggleTheme" color="primary"></v-btn>
+          <v-btn icon="mdi-palette" class="fa-shake" @click="toggleTheme" color="primary"></v-btn>
         </template>
     </v-app-bar>
     <v-main>
